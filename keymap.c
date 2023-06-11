@@ -15,23 +15,23 @@ char wpm_str[10];
 // KC_MINUS -> ' -> ? -> \
 // KC_NUBS  -> < -> > -> « 
 // KC_QUOT  -> { -> [ -> ^
-// KC_BSLS  -> }
-// KC_EQL   -> ¿
-// KC_UNDS  -> ?
-// KC_TILDE -> °
-// KC_RCBR  -> *
-// KC_PIPE  -> ]
-// KC_COLON -> S
-// KC_DQT   -> [
-// KC_PERC  -> %
-// KC_CIRC  -> &
-// KC_AMPR  -> /
-// KC_ASTR  -> (
-// KC_LPRN  -> )
-// KC_RPRN  -> =
-// KC_UNDS  -> ?
-// KC_PLUS  -> ¡
-// KC_LCBR  -> ¨
+// KC_BSLS  -> } -> ] -> `
+// KC_EQL   -> ¿ -> ¡ -> ¸
+// KC_UNDS  -> ? -> ? -> ?
+// KC_TILDE -> ° -> ° -> ¬
+// KC_RCBR  -> * -> * -> ¯
+// KC_PIPE  -> ] -> ] -> }
+// KC_COLON -> S -> S -> §
+// KC_DQT   -> [ -> [ -> }
+// KC_PERC  -> % -> % -> ⅜
+// KC_CIRC  -> & -> & -> ⅝
+// KC_AMPR  -> / -> / -> ⅞
+// KC_ASTR  -> ( -> ( -> ™
+// KC_LPRN  -> ) -> ) -> ±
+// KC_RPRN  -> = -> = -> °
+// KC_UNDS  -> ? -> ? -> ¿
+// KC_PLUS  -> ¡ -> ¡ -> ˛
+// KC_LCBR  -> ¨ -> ¨ -> ˚
 // KC_PPLS  -> +
 // KC_PMNS  -> -
 // KC_PAST  -> *
