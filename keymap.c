@@ -48,17 +48,6 @@ char wpm_str[10];
 // KC_GT    -> V -> V
 // KC_QUESTION -> Z -> Z
 
-  [2] = LAYOUT_split_3x6_3(
-  //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-    KC_ESCAPE, KC_LBRC, KC_RBRC, KC_NUHS, KC_SCLN, KC_GRV,                      KC_PGUP,KC_HOME, KC_UP, KC_END, XXXXXXX, XXXXXXX,
-  //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT, KC_PSCR, KC_EXLM, KC_AT, KC_TAB, KC_DLR,                      KC_PGDN, KC_LEFT, KC_DOWN, KC_RIGHT, XXXXXXX, KC_RSFT,
-  //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL, KC_HASH, KC_LT, KC_GT, KC_QUESTION, KC_LCBR,                      XXXXXXX, KC_PPLS, KC_PMNS, KC_PAST, KC_PSLS, KC_LALT,
-  //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_DEL,   KC_SPC,  MO(3),     _______, KC_ENT, KC_BSPC
-                                      //`--------------------------'  `--------------------------'
-
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_split_3x6_3(
